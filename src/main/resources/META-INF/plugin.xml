@@ -1,4 +1,5 @@
 <idea-plugin>
+    <version>0.1.0</version>
     <id>org.example.pycharm</id>
     <name>Variable Type in Statusbar</name>
     <vendor email="michalwisniewski2001@proton.me" url="https://github.com/skrapi2011">skrapi2011</vendor>
