@@ -1,16 +1,16 @@
 <idea-plugin>
+    <version>0.1.0</version>
     <id>org.example.pycharm</id>
-    <name>Plugin display name here</name>
-    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+    <name>Variable Type in Statusbar</name>
+    <vendor email="michalwisniewski2001@proton.me" url="https://github.com/skrapi2011">skrapi2011</vendor>
 
     <description><![CDATA[
-    Enter short description for your plugin here.<br>
-    <em>most HTML tags may be used</em>
+        This plugin displays the type of a variable under the caret in the status bar.<br>
     ]]></description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
-    <depends>com.intellij.modules.platform</depends>
+    <depends>com.intellij.modules.python-core-capable</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
